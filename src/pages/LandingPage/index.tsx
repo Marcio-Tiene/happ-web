@@ -30,7 +30,7 @@ const LandingPage: React.FC = () => {
           <LocationSpan>Santa Catarina</LocationSpan>
         </LocationDiv>
 
-        <LinkEnterApp>
+        <LinkEnterApp to='/app'>
           <FiArrowRight size={26} color='rgba(0, 0, 0, 0.6)' />
         </LinkEnterApp>
       </ContentWrapper>

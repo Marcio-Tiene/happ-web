@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import Landing from '../../assets/img/Landing.svg';
 
@@ -59,7 +60,7 @@ export const LocationSpan = styled.span``;
 export const Strong = styled.strong`
   font-weight: 800;
 `;
-export const LinkEnterApp = styled.a`
+export const LinkEnterApp = styled(Link)`
   position: absolute;
   right: 0;
   bottom: 0;
